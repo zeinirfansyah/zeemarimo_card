@@ -15,6 +15,10 @@ const Home = () => {
       </div>
 
       <img className="imgassets imgasset5" src={totoro_family} alt="" />
+      {/* copyright */}
+      <p className="text-center copyright">
+        © 2023 zeemarimo. All rights reserved.{" "}
+      </p>
     </div>
   );
 };

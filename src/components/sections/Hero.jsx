@@ -10,7 +10,8 @@ const Hero = () => {
       <div className="container">
         <div className="card w-75 ms-auto">
           <div className="row">
-            <h2 className="title-card text-center">Zeemarimo Card</h2>
+            <h2 className="title-card text-center">Zeemarimo Card</h2>{" "}
+            <hr className="line " />
             <div className="col-3">
               <div className="hero__img">
                 <img className="foto foto1" src={foto} alt="" />
@@ -20,35 +21,45 @@ const Hero = () => {
               <div className="hero__text w-75">
                 <div className="row">
                   <div className="col text">
-                    Hai I'm <b>zeemarimo</b>, you can call me <b>zee</b>. I'm a
-                    frontend engineer and I love to create things. I'm currently
-                    live in Yogyakarta, Indonesia. I'm a self-taught programmer
-                    and I love to learn new things.
+                    <p>
+                      Hai I'm <b>zeemarimo</b>, you can call me <b>zee</b>. I'm
+                      a frontend engineer and I love to create things. I'm
+                      currently live in Yogyakarta, Indonesia. I'm a self-taught
+                      programmer and I love to learn new things.
+                    </p>
+                    <p>
+                      {" "}
+                      I have a passion in art especially sketch art. I love to
+                      play games even though I'm not good at it.
+                    </p>
+                    <p>
+                      <b>Nice to meet you :D</b>
+                    </p>
                   </div>
                 </div>
-                <div className="row">
-                  <div className="col socmed">
-                    <div className="row">
-                      <div className="col">
-                        <a href="https://dsc.gg/mindmesh">
-                          <img src={discordicon} alt="" className="discord" />
-                          zee #1790
-                        </a>
-                      </div>
-                      <div className="col">
-                        <a href="https://instagram.com/zeemarimo">
-                          <img src={instagramicon} alt="" />
-                          zeemarimo
-                        </a>
-                      </div>
+              </div>
+              <div className="row">
+                <div className="col socmed">
+                  <div className="row">
+                    <div className="col">
+                      <a href="https://dsc.gg/mindmesh" target="_blank">
+                        <img src={discordicon} alt="" className="discord" />
+                        zee #1790
+                      </a>
+                    </div>
+                    <div className="col">
+                      <a href="https://instagram.com/zeemarimo" target="_blank">
+                        <img src={instagramicon} alt="" />
+                        zeemarimo
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <img className="imgassets imgasset3" src={pixel_totoro1} alt="" />
         </div>
+        <img className="imgassets imgasset3" src={pixel_totoro1} alt="" />
       </div>
     </div>
   );
