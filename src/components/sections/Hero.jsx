@@ -30,13 +30,13 @@ const Hero = () => {
                   <div className="col socmed">
                     <div className="row">
                       <div className="col">
-                        <a href="">
+                        <a href="https://dsc.gg/mindmesh">
                           <img src={discordicon} alt="" className="discord" />
                           zee #1790
                         </a>
                       </div>
                       <div className="col">
-                        <a href="">
+                        <a href="https://instagram.com/zeemarimo">
                           <img src={instagramicon} alt="" />
                           zeemarimo
                         </a>
